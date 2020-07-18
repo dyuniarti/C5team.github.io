@@ -1,0 +1,45 @@
+/*untuk tablet*/
+@media all and (max-width: 1000px) {
+	.lesson {
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	.top-wrapper h1 {
+		font-size: 32px;
+	}
+}
+
+/*Untuk smartphone*/
+@media all and (max-width: 670px) {
+	.lesson {
+		width: 100%;
+	}
+	.lesson-wrapper {
+		height: 1790px;
+	}
+	.content-icon img {
+		width: 100%;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer img {
+		width: 40px;
+	}
+	.footer p {
+		font-size: 10px;
+		text-align: center;
+	}
+	/*Css for Header Right*/
+	.header-right {
+		display: none;
+	}
+	/*Menu-icon*/
+	.menu-icon {
+		display: block;
+	}
+	.top-wrapper h1 {
+		font-size: 24px ;
+		line-height: 20px;
+	}
+}
